@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Successful</title>
+</head>
+<body>
+<h1>Student Registered Successfully</h1>
+<p>Name : {{ name }}</p>
+<p>Age : {{ age }}</p>
+<p>Course : {{ course }}</p>
+<br>
+<a href="{{ url_for('view_students') }}">View Student List</a>
+<br><br>
+<a href="{{ url_for('home') }}">Register Another Student</a>
+</body>
+</html>
